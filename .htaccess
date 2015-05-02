@@ -1,0 +1,8 @@
+<Files .htaccess>
+	order allow,deny
+</Files>
+
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^([a-z0-9]+)$  http://gcdsrv.com/~praisets/GroupProject/redirect.php?code=$1
